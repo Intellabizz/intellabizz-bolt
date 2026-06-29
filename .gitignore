@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+/node_modules/
+
+# Angular Build & Cache Artifacts
+dist/
+/dist/
+/dist-ssr/
+/out-tsc/
+/tmp/
+/coverage/
+/.angular/
+.angular/
+/.ng/
+/.angular-cli.json
+*.tsbuildinfo
+
+# Environment & Private Configuration Files
+.env
+*.local
+
+# System & OS Files
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# IDEs and Editors
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Test Outputs
+/e2e/test-output/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
